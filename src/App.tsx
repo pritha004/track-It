@@ -19,7 +19,7 @@ export default function App() {
 
   return (
    
-        <main className="relative dark:bg-black">
+        <main className="relative text-black">
           <Header/>
           <main>
             <Outlet />

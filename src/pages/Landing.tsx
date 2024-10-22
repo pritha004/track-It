@@ -1,10 +1,12 @@
+import { Hero } from "../components";
 
 
 const Landing = () => {
   return (
     <>
-      <section className="">
-        
+    
+      <section className="relative overflow-hidden">
+      <Hero />
       </section>
       <section className="sm:px-16 px-8 sm:py-24 py-12">
         
