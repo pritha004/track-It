@@ -1,6 +1,9 @@
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
 import { AiFillInstagram } from "react-icons/ai";
+import { heroImg } from "../assets";
+
+export const heroImage = heroImg;
 
 export const navLinks = [
   {

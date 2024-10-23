@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <header className={`px-8 py-6 z-10 w-full text-black bg-white/60 fixed`}>
+    <header className={`px-8 py-4 z-10 w-full text-black bg-white/60 fixed`}>
       <nav className="flex justify-between items-center max-container">
         <div className="container flex justify-between items-center font-palanquin">
           {/* logo section */}
