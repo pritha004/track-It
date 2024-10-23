@@ -1,6 +1,7 @@
 import { FaCircleArrowRight } from "react-icons/fa6";
 import { motion } from "framer-motion";
 import { SlideUp } from "../utils/animations";
+import { MotionButton } from "../components";
 
 const Hero = () => {
   return (
@@ -48,15 +49,13 @@ const Hero = () => {
 
             {/* Button */}
             <div className=" md:justify-start !mt-10">
-              <motion.button
-                variants={SlideUp(2)}
+              <MotionButton variants={SlideUp(2)}
                 initial="hidden"
                 whileInView="show"
-                className="bg-medium-green px-4 py-2 text-white flex items-center justify-center gap-2 font-semibold cursor-pointer"
-              >
-                <FaCircleArrowRight size={24}/>
-                Sign Up
-              </motion.button>
+                className="bg-medium-green px-4 py-2 text-white cursor-pointer">
+              <FaCircleArrowRight size={24}/>
+              Sign Up
+              </MotionButton>
             </div>
           </div>
           

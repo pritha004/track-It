@@ -33,16 +33,19 @@ const Header = () => {
                     className="nav-menu"
                     data-delay={menu.delay}
                   >
-                    <a
-                      href={menu.path}
+                    <Link
+                      to={menu.path}
                       className="inline-block px-2 py-2 text-2xl"
                     >
                       {menu.title}
-                    </a>
+                    </Link>
                   </motion.li>
                 );
               })}
             </ul>
+            <button>
+              
+            </button>
           </div>
         </div>
       </nav>

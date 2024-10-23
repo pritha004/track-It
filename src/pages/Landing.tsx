@@ -1,4 +1,4 @@
-import { Hero } from "../components";
+import { Hero } from "../sections";
 
 
 const Landing = () => {

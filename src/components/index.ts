@@ -1,9 +1,5 @@
-import Header from "./Header";
-import Footer from "./Footer";
-import Hero from "./Hero";
+import MotionButton from "./Button";
 
 export {
-    Header,
-    Footer,
-    Hero
+    MotionButton
 }
