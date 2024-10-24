@@ -1,4 +1,4 @@
-import { Hero } from "../sections";
+import { Hero, SubHeading } from "../sections";
 
 
 const Landing = () => {
@@ -11,8 +11,8 @@ const Landing = () => {
       <section className="sm:px-16 px-8 sm:py-24 py-12">
         
       </section>
-      <section className="sm:px-16 px-8 sm:py-8 py-12">
-        
+      <section className="sm:py-8 py-12">
+      <SubHeading/>
       </section>
       <section className="sm:px-16 px-8 sm:py-20 py-12">
         

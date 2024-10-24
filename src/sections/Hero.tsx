@@ -7,7 +7,7 @@ import { heroImage } from "../constants";
 const Hero = () => {
   return (
     <section id="Home" className="grid max-container">
-      <div className="absolute top-[70px] sm:top-20 md:top-36 lg:top-40 space-y-1 sm:space-y-2 lg:space-y-4 text-left ml-4 sm:ml-12 md:ml-24 xl:ml-40 sm:mt-12 xl:mt-24 z-10">
+      <div className="absolute top-[70px] sm:top-20 md:top-36 lg:top-40 space-y-1 sm:space-y-2 lg:space-y-4 text-left ml-4 sm:ml-12 md:ml-24 xl:ml-40 mt-4 sm:mt-12 xl:mt-24 z-10">
         <motion.h1
           variants={SlideUp(0.5)}
           initial="hidden"

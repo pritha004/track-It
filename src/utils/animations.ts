@@ -31,3 +31,20 @@ export const SlideDown = (delay: number) => {
     },
   };
 };
+
+export const SlideRight = (delay: number) => {
+  return {
+    initial: {
+      x: -100,
+      opacity: 0,
+    },
+    animate: {
+      x: 0,
+      opacity: 1,
+      transition: {
+        duration: 0.6,
+        delay: delay,
+      },
+    },
+  };
+};
